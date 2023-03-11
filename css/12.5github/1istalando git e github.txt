@@ -1,0 +1,8 @@
+Nesta aula vamos instalar o Git e Github
+Vamos pesquisar no google-> git    https://git-scm.com/download/win->Download for windows Baixar a primeira opção.
+Depois vamos pesquisar no google -> Github Desktop-> vamos clicar no GitHub Desktop | Simple collaboration from your desktop https://desktop.github.com/
+Depois de baixado os arquivos vamos instalar primeiramente o Git instalar-> next ->next> use visual studio code as gits defaut editor-> next -> next -> next -> next -> next -> next -> next -> instal ->reiniciar o computador.
+Agora vamos instalar o Github Desktop clicar instalar e pronto.
+Vamos Criar uma conta no Git Hub é importante voçê colocar um nome profissional.
+Clica em Sign up na primeira vez que entrar  coloca o nome menor possivel e fácil e profissional->Depois coloca seu email válido
+coloca a senha de pelo menos 8 caracteres-> clicar em verificar a conta-> vamos clicar em estudante ->nehuma experiência->marcar porque vai utilizar o github pode marcar varios -> inserir áreas de interesse ->completar ->ele vai enviar uma email para você confirmar ->abrir o email clicar no link verificar ->pronto

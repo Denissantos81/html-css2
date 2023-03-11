@@ -1,0 +1,7 @@
+Vamos criar o primeiro repositorio
+1° vamos verificar o nome da pasta que vamos criar o repositorio. 
+
+Vamos abrir o github Desktop  -> clicar em create a new repository->inserir o nome  da pasta que verificamos anteriormente
+colocamos uma descrição sobre a pasta depois copiar o caminho completo da pasta html-css->marcar o iniciar com o readme ->none->
+MATlicence conferir se o endereço da pasta esta certo clicar em create repository
+

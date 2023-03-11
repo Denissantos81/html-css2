@@ -1,0 +1,53 @@
+Para inserir vídeos em nosso site 
+Primeiramente podemos verificar os formatos de audio
+Os formatos de vídeo mais utilizado são:
+
+Navegador Arquivos compatíveis
+Microsoft Edge .mp4 .m4v
+Apple Safari .mp4 .m4v
+Google Chrome .mp4 .m4v .webm .ogv
+Mozilla Firefox .webm .ogv
+Opera .webm .ogv
+
+Para modificar o formato do vídeo podemos utilizar uma ferramenta gratuita 
+HandBrake
+https://handbrake.fr/downloads.php
+Para converter para ogv podemos converter online no site
+https://video.online-convert.com/pt/converter-para-ogv
+
+É importante não colocarmos videos muito grandes em nossa página pois isso gera muito trafego de dados.
+O que pode sair muito caro para o quem paga a hospedagem
+Podemos tambem incorporar em nossa página videos hospedados em outros sites de streemer.
+Isto pode reduzir muito o trafego de dados mas se o video for excluido da plataforma pode comprometer a visualização.
+Para isso escolhemos o video na plataforma e clicamos em compartilhar  depois incorporar copiamos o codigo e inserimos em nossa página.
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+<h1>Inserir Videos</h1>
+<p>Agora vamos inserir vídeos em nossa página.</p> 
+<p>Estas são recomendações para vídeo hospedado no proprio site</p> 
+<p>Aqui nos inserimos width para a largura height para altura e poster para mostrar a imagem de capa.</p>
+<video width="350px" height="550px" poster="ave.jpeg" controls>
+    <source src="videos/Ave.mkv" type="video/mp4">
+    <source src="videos/Ave.webm" type="video/webm">
+    <source src="videos/ave.mp4" type="video/mp4">
+    <source src="videos/ave.ogv" type="video/ogg">
+    <p>Seu navegador não é compativel com reprodução de midia.</p>
+</video> 
+<hr>
+<h2>Outra forma de adicionar video no site</h2> 
+<p>Podemos tambem incorporar em nossa página videos hospedados em outros sites de streemer. </p>
+<p>Isto pode reduzir muito o trafego de dados mas se o video for excluido da plataforma pode comprometer a visualização.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fyMpCrowAA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
+ 

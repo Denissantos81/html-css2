@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis em css</title>
+    <style>
+        /*Todas as variaveis tem que começar com (--)*/
+        :root{
+            --cor1: #4A6B70;
+            --cor2: #57DEF2;
+            --cor3: #9EE5F0;
+            --cor4: #286770;
+            --cor5: #7DB4BD;
+            --font1:monospace arial helvetica;
+            --font2:Georgia ,serif;
+            --font3:cursive;
+        }
+        body{
+            background-color: var(--cor2);
+             ;
+        }
+        h1{
+            background-color: var(--cor1);
+            color: var(--cor3);
+            font-family:var(--font3)
+        }
+        #ex1{
+            background-color: var(--cor5);
+            color: var(--cor4);
+            font-family:var(--font2)
+        }
+        #ex2{
+            background-color: var(--cor4);
+            color: var(--cor2);
+            font-family:var(--font1);
+        }
+        #ex3{
+            background-color: var(--cor3);
+            color: var(--cor5);
+            font-family:Georgia ,serif;
+        }
+        #ex4{
+            background-color: var(--cor1);
+            color: var(--cor5);
+            font-family:var(--font3);
+        }
+        p{
+            font-family:var(--font3); 
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Variaveis em css</h1>
+    <p>Nesta atividade nós declaramos algumas variaveis em css.</p>
+    <p>Para ísso nós utilizamos a pseudo-classe chamada (:root)</p>
+    <p>Estas variaveis são utilizadas para definir alguns itens que são utilizados em nóssa página para facilitar a selecão.</p>
+    <p>Também alxilia na hora de manipular varias páginas.</p>
+    <h2 id="ex1">Variaveis de cores1</h2>
+    <h2 id="ex2">Variaveis de cores2</h2>
+    <h2 id="ex3">Variaveis de cores3</h2>
+    <h2 id="ex4">Variaveis de cores4</h2>
+</body>
+</html>

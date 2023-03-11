@@ -1,0 +1,29 @@
+Para criar bordas decoradas vamos abrir o Gimp
+Clicar no arquivo nova-> Tamanho da imagem 80L x 80A -> opções avançadas-> Resolução 70 ->cor de fundo transparente
+Da um zoom na imagem pega as reguas e divide em 9 partes
+Vai na segunda opção no canto superior esquerdo na ferramenta de captura retangular.seleção eliptica
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas desenhadas</title>
+    <style>
+        h1{
+            margin-top: 100px;
+            border: 20px solid black;
+            padding: 10px;
+            text-align: center;
+            border-image: url("Bordacriada.png");
+            border-image-slice: 20;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas desenhadas</h1>
+    
+</body>
+</html>

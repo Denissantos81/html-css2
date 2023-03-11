@@ -1,0 +1,92 @@
+Nesta aula nós iremos adicionar textos e suas diversas formas de inserção.
+Vamos entrar com varios exemplos de textos
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Vamos inserir textos</h1>
+    <h1>Titulo</h1>
+
+    <h2>Sub titulo</h2>
+    <h3>Texto nivel 3</h3>
+    <h4>Texto nivel 4</h4>
+    <h5>Texto nivel 5</h5>
+    <h6>Texto nivel 6</h6>
+
+    <p>Negrito pode escrever <b>assim</b></p>
+    <p>E negrito pode escrever <strong>assim</strong></p>
+
+<p>Italico pode ser escrito <i>assim</i></p>
+<p> E tambem pode ser escrito <em>assim</em></p>
+
+<p>Temos tambem a Tag <mark style="background-color:yellow ;">mark</mark> que vai marcar o texto
+
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni iste, alias earum beatae dolorum nemo nam recusandae. Eaque mollitia facere exercitationem minus laudantium. Laboriosam officia possimus est! Necessitatibus, beatae?</p>
+
+<p>Texto Grande <big>aumenta</big> a letra</p>
+<p>Texto pequeno <small>diminui </small>a letra</p>
+
+<p>Deletar o texto <del>deleta</del> risca o texto</p>
+
+<p>Sublinhar o <ins>texto</ins> de forma semântica</p>
+<p>Sublinhar o <u> texto </u> sem ser Semântico</p>
+
+<p>Entre aspas o <q>texto</q> de forma semântica</p>
+<p>Sobre escrever o <sup>texto</sup></p>
+<p>Sub escrever o <sub>texto</sub></p>
+<p>Abreviações <abbr title="é o que da sentido" >semântica</abbr> </p>
+<p>Eu posso tambem inverter o <bdo dir="rtl">texto</bdo></p>
+<p>Listas ordenadas</p>
+<ol>
+    <p>Para criar listas ordenadas inserimos a tag ol </p>
+    <p>E para criar as linhas inserimos a tag li</p>
+    <li>Esta é a primeira linha do texto</li>
+    <ol>
+        <li>posso colocar uma lista dentro da lista</li>
+        <li>esta é uma lista interna a lista </li>
+    </ol>
+    <li>Esta e a segunda linha do texto</li>
+    <ol type="A">
+        <li>posso alterar a ordenação entre numero letras </li>
+        <li>segunda lilha</li>
+    </ol>
+    <li>Esta é a terceira linha do texto</li>
+        <ol type="I">
+            <li>primeira em Romanos</li>
+            <li>segunda em romanos</li>
+        </ol>
+    <li>Esta é em algarismos Romanos minusculo</li> 
+        <ol type="i">
+            <li>primeira linha</li>
+            <li>segunda linha</li>
+        </ol>
+
+</ol>
+<ul>
+    <p>Lista não ordenada</p>
+    <li>Primeira linha</li>
+    <ul type="square">
+        <li>Essa marcação quadrada</li>
+        
+    </ul>
+
+    <li>Segunda linha</li>
+        <ul type="circle">
+            <li>mostra este circulo</li>
+        </ul>
+
+</ul>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+Para inserirmos áudio em nossa pagina primeiramente temos que ter cuidado com os direitos autorais
+Podemos baixar alguns áudios com direitos liberados diretamente do youtube 
+Painel de controle >youtube studio >no canto esquerdo biblioteca de áudio >escolhemos licenças
+atribuição não necessaria com o simbolo do youtube e baixar o áudio e inserir no site sem probremas 
+Agora se você escolher com atribuição necesssária com o simbolo CC terá  que inserir as informações logo abaixo do áudio para não ter problemas
+Os navegadores geralmente funciona com os formatos de áudio:
+mp3
+wav
+ogg
+o ideal e ter o mesmo áudio nos tres formatos para que rode em todos navegadores.
+Podemos convertelos no site
+https://online-audio-converter.com/pt/
+
+temos as configurações de preload="metadata" vai carregar o nome do arquivo e tempo de duração 
+				  preload="auto" vai carregar tudo primeiro até o áudio completo (não recomendado).
+autoplay = para começar a tocar a música quando carrega a página.
+loop = toca a musica novamente.
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Audio</title>
+</head>
+<body>
+    <h1>Adicionar Áudio</h1>
+    <p>Vamos inserir áudio em nossa página.</p>
+    <h2>Musicas</h2>
+    
+    </ul>
+    <ul>Blues
+        <ol>
+            <li>Joel Cummins - King Porter Stomp <p><audio src="King.mp3"controls autoplay loop></audio></li></p>
+            <li>Chris Haugen - Soul Food <p> <audio src="Soul.mp3" controls></audio></li></p>
+        </ol>
+
+    </ul>
+    <ul>Classicas
+        <ol>
+            <li>Bach Cello Suite No. 1, G Major, Prelude
+                <p> <audio src="prelude.mp3"controls></audio></li></p>
+            <li>Mozart Eine Kleine Nachtmusik   </li>
+            <audio preload="metadata" controls >
+                <source src="eine.mp3" type="audio/mp3">
+                <source src="eine.ogg" type="audio/ogg">
+                <source src="eine.wav" type="audio/wav">
+                <p>Infelismente seu navegador não é compativel com o reprodutor de áudio</p>
+            </audio>
+           
+        </ol>
+    
+</body>
+</html>		

@@ -1,0 +1,36 @@
+Para inserirmos imagens dinamicas para todos os tipos de tela vamos inserir a tag 
+<picture>
+  As tags <source> vai selecionar a imagem de acordo com o tamanho orientado em max-width
+como no exemplo abaixo
+
+
+<picture> 
+	  <source media="(max-width:500px )" srcset="imagens/praiap.jpeg" type="image/jpeg">
+        <source media="(max-width:900px )" srcset="imagens/praiam.jpeg" type="image/jpeg">
+        <img src="imagens/praiag.jpeg" alt="imagem de uma praia">
+</picture>
+
+O html utiliza a imagem de acordo com a tela 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source media="(max-width:500px )" srcset="imagens/praiap.jpeg" type="image/jpeg">
+        <source media="(max-width:800px )" srcset="imagens/praiam.jpeg" type="image/jpeg">
+        <img src="imagens/praiag.jpeg" alt="imagem de uma praia">
+</picture>
+</body>
+</html> 

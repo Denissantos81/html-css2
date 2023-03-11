@@ -1,0 +1,20 @@
+Com o Vscode Facilita bastante o nosso codigo
+iniciamos com o !  e enter Que o programa já adianta meio codigo pra gente
+
+<!DOCTYPE html>    											Tipo do arquivo
+<html lang="en">												Idioma do programa			
+<head>													Cabeça do programa
+    <meta charset="UTF-8">										Tipo de caracteres aceitos			
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">					Compatibilidade 		
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">		Informando a resolução da tela toda
+    <title>Document</title>										Titulo do Arquivo
+</head>
+<body>
+<h1>Minha Primeira Pagina</h1>													Corpo da página
+    <h1>Olá Programadores Web  </h1>
+    <p>Tudo Bem?</p>
+    <p>Este é nossa primeira página Web</p>
+    <p>Sejam Bem vindos!</p>
+
+</body>
+</html>

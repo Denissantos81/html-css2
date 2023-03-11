@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bonbon&display=swap');
+        /*Para inserirmos as fontes nós selecionamos a fonte escolhida no Google Fonts clicamos em select no peso de escolha (regular, medio, Bold) para adicionar  selecionamos a opção import e copiamos o @import completo sem os style depois colamos dentro do style, depois
+        copiamos o codigo da familia colamos no font family  e pronto.
+    Temos a opção de copiar o link tambem e colar logo abaixo do title do html depois
+    copiamos o codigo da familia colamos no font family  e pronto.*/
+
+        /*Neste exemplo o body e um seletor e o margim e uma declaração*/
+        body{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        #p1{
+            font-family: 'Roboto Mono', monospace;
+
+            color: blue;
+            font-size: 1.3em;
+
+        }
+
+        #p2{
+            font-family: 'Great Vibes', cursive;
+            font-size: 1.5em;
+
+        }
+        #p3{
+            font-family: 'Great Vibes', cursive;
+            font-weight: 200; /*Aqui alteramos o peso da fonte*/
+           
+        }
+        #p4{
+            font-family: 'Great Vibes', cursive;
+            font-weight:900;/*Aqui alteramos o peso da fonte*/
+        }
+        #p5{
+            
+            font-family: 'Bonbon', cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tipografia</h1>
+    <h2>Nesta aula vamos trabalhar com fontes externas e pesos diferentes.</h2>
+    <h3>Vamos inserir fontes do Google fonts  https://fonts.google.com/</h3><br>
+    <h3>Vamos inserir fontes da família (  font-family: 'Roboto Mono', monospace; ) direto do link.</h3>
+    <p id="p1">Para inserirmos as fontes nós selecionamos a fonte escolhida no Google Fonts clicamos em select no peso de escolha (regular, medio, Bold) para adicionar  selecionamos a opção import e copiamos o @import completo sem os style depois colamos dentro do style, depois
+        copiamos o codigo da familia colamos no font family  e pronto.
+    Temos a opção de copiar o link tambem e colar logo abaixo do title do html depois
+    copiamos o codigo da familia colamos no font family  e pronto.</p>
+    
+    <h3>Vamos inserir fontes da família ( font-family: 'Great Vibes', cursive;) via import.</h3>
+    <p  id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum harum adipisci pariatur rem asperiores sed illo aperiam natus minus corrupti deleniti, similique voluptas est, reiciendis sunt cumque, voluptates dignissimos.</p><br>
+    
+    <h3 >Vamos inserir fontes da família ('Great Vibes', cursive;) vamos alterar o peso da fonte.</h3>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum harum adipisci pariatur rem asperiores sed illo aperiam natus minus corrupti deleniti, similique voluptas est, reiciendis sunt cumque, voluptates dignissimos.</p><br>
+    
+    <h3>Vamos inserir fontes da família ('Great Vibes', cursive;) mesma fonte  com um peso maior.</h3>
+    <p id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum harum adipisci pariatur rem asperiores sed illo aperiam natus minus corrupti deleniti, similique voluptas est, reiciendis sunt cumque, voluptates dignissimos.</p><br>
+    
+    
+    <h3>Vamos inserir fontes do Google Fonts da família (font-family: 'Bonbon', cursive;) via import.</h3>
+    <p id="p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dolorum harum adipisci pariatur rem asperiores sed illo aperiam natus minus corrupti deleniti, similique voluptas est, reiciendis sunt cumque, voluptates dignissimos.</p><br>
+
+
+
+    
+</body>
+</html>

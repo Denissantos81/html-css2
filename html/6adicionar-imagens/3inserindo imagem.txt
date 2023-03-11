@@ -1,0 +1,32 @@
+Para inserirmos imagem na página iremos utilizar a tag
+
+<img src="" alt="">
+img de imagem   src nome da imagem.formato e alt para texto alternativo(explicando a imagem )   
+
+As tags abaixo utilizamos para deixar a imagem com 100% da tela
+ <style>
+        img{
+            width: 100%;
+        }
+ </style>
+  
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="5adicionar-imagens/imagens/praiag.jpeg" alt="imagem de uma praia">
+    
+</body>
+</html> 

@@ -1,0 +1,14 @@
+pesquisar no google visual studio code
+
+https://code.visualstudio.com/docs/?dv=win
+
+Baixar e marcar os todos os itens e mandar instalar o programa.
+
+
+Em extenções clicar  pesquisar portuguese instalar clicar em     change language and restart
+
+Em Extenções pesquisar live server instalar 
+
+Em arquivos Preferencias Configurações pesquisar word wrap clicar em on
+
+Em arquivos Marcar Salvamento automatico

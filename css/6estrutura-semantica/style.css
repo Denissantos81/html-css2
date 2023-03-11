@@ -1,0 +1,49 @@
+header{
+    background-image: linear-gradient(to right , rgb(41, 40, 40), rgb(0, 119, 255));
+    color: aqua;
+    height: 150px;
+    text-align: center;
+    
+}
+nav{
+    display:inline;
+    background-image: linear-gradient(to right , rgb(138, 134, 134), rgb(0, 217, 255));
+   
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    
+   }
+a{
+    margin: 7vw;
+    color: aquamarine;
+
+}
+main{
+    background-image: linear-gradient(to right , rgb(41, 40, 40),  rgb(0, 217, 255));
+    height:95vh;
+    text-align: center;
+}
+section{
+    background-image: linear-gradient(to right , rgb(59, 58, 58),  rgb(0, 217, 255));
+    width: 90vw;
+    height: 35vh;
+
+}
+article{
+    background-image: linear-gradient(to right , rgb(41, 40, 40),  rgb(0, 217, 255));
+    width: 70vw;
+    height: 30vh;
+
+}
+aside{
+    background-image: linear-gradient(to right , rgb(41, 40, 40),  rgb(0, 217, 255));
+    width: 50vw;
+    height: 20vh;
+
+}
+footer{
+    background-image: linear-gradient(to right , rgb(41, 40, 40),  rgb(0, 217, 255));
+    
+    height: 10vh;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+Para inserirmos imagens em nossa página primeiramente nos escolhemos os formatos mais usados
+
+png      com melhor qualidade e maior tamanho com suporte a trasparencia
+jpeg     com um pouco menos qualidade mas com qualidade muito boa e com tamanho reduzido sem suporte a transparencia
+
+Para editar nossa imagem podemos utilizar o gimp ou pait 3d para editar nossas imagens para instalar 
+o gimp buscamos no google e instalamos
+
+Agora vamos preparar nossas imagens
+Vamos editar imagens com pelo menos tres tamanhos diferentes
+
+Com o tamanho de 1200px de largura  Tela widescreem 
+Com o tamanho de 800px de largura   Tela Quadrada 
+Com o tamanho de 500px de largura   Tela de Celular Vertical
+
+Para editar imagem pelo gimp Depois de carregar a imagem  vamos em imagem redmencionar a imagem 
+ajustamos a imagem para 1200 
+Resolução  50x  50y  clicar em redmencionar
+depois exportar como 
+Qualidade vamos colocar em 70% 
+Vamos alterar o nome para um nome fácil .jpg
+Depois é só repetir para os outros formatos
+

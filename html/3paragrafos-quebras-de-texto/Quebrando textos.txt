@@ -1,0 +1,34 @@
+Aqui esta um exemplo de como quebrar textos 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebras de linhas </title>
+</head>
+<body>
+  <h1>Vamos aprender a quebrar linhas de um texto.</h1>  
+  <p>Podemos começar com este texto, 
+    para exemplificar a quebra de texto,
+    por mais que  mudamos de linha 
+    o texto estara em uma só linha. </p>
+    <p>Então</p>
+    <p>Se queremos quebrar </p>
+    <p>uma linha,</p>
+    <p>ou um texto,</p>
+    <p>podemos utilizar as tags </p>
+    <p>p ou br</p>
+    <p>com <br> estas <br> tags quebramos os <br>textos</p>
+
+<p>Tambem podemos utilizar a tag pre ela vai respeitar as quebras de linhas, ideal para codigos de programas</p>
+    <pre>
+        Podemos começar com este texto, 
+        para exemplificar a quebra de texto,
+        por mais que  mudamos de linha 
+        o texto estara em uma só linha.
+    </pre>
+</body>
+</html>

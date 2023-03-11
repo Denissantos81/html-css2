@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia</title>
+    <style>
+        body{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        #p1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.5cm;
+        }
+        #p2{
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 5mm;
+        }
+        #p3{
+            font-family: cursive;
+            font-size: 0.2in;
+        }
+        #p4{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+        }
+        #p5{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1pc;
+        }
+        #p6{
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 1.2em;
+        }
+        #p7{
+            font-family: cursive;
+            font-size:2.5ex;
+        }
+        #p8{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:1rem;
+        }
+        #p9{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2vw;
+        }
+        #p10{
+            font-family:'Times New Roman', Times, serif ;
+            font-size: 2.4vh;
+        }
+        #p11{
+            font-family: cursive;
+            font-size: 120%;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Tamanho de fontes</h1>
+    <h2>Nesta aula vamos trabalhar com tamanho de fontes</h2>
+    <h3>Vamos inserir o tamanho da fonte com a medida(cm = centimetro absoluta )</h3>
+    <p  id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+    
+    <h3>Vamos inserir o tamanho da fonte com a medida(mm = milimetro absoluta)</h3>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+    
+    <h3>Vamos inserir o tamanho da fonte com a medida(in = polegada absoluta )</h3>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+    
+    <h3>Vamos inserir o tamanho da fonte com a medida(px = pixel absoluta )</h3>
+    <p id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(pc = paica absoluta )</h3>
+    <p id="p5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(em = tamanho da fonte relativa )</h3>
+    <p id="p6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(ex = altura x da fonte relativa )</h3>
+    <p id="p7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(rem = fonte do body relativa )</h3>
+    <p id="p8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(vw = largura da tela relativa )</h3>
+    <p id="p9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+    
+    <h3>Vamos inserir o tamanho da fonte com a medida(vh = altura da tela relativa )</h3>
+    <p id="p10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+
+    <h3>Vamos inserir o tamanho da fonte com a medida(% = porcentagem relativa )</h3>
+    <p id="p11">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat deleniti hic necessitatibus nam harum nobis fuga dignissimos commodi voluptates rem molestiae natus sed eveniet optio magnam culpa, ipsam amet! Lorem </p><br>
+ 
+</body>
+</html>
