@@ -1,0 +1,8 @@
+Para postarmos a nossa página vamos no repositorio online do github clicar em configurações e decer a pagina no  lado esquerdo em "Pages",  apenas selecione a opção main/Root e Deploy from a branch, aguarde uns minutos e logo seu link estará disponível.
+e pegamos nosso link e salvamos
+no meu caso foi denissantos81.github.io  agora vamos agregar o endereçõ do arquivo na página e vai ficar assim:
+denissantos81.github.io/html-css2/css/1id-class/index.html  e pronto ja esta funcionando
+
+
+Podemos gerar um qr code para entrar em nossa pagina no site:
+https://www.qr-code-generator.com/ clicar em url inserir a url  e fazer o download da imagem.
