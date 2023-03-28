@@ -11,7 +11,12 @@ section{
 }
 article{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 1l
+                         2l 2l 2l 2l 2l 
+                         3l 3l 3l 3l 
+                         4l 4l
+                         5l
+                             ;
     grid-gap: 10px;
     background-color: rgb(20, 230, 104);
     grid-auto-rows: 31%;
@@ -36,4 +41,12 @@ header{
     background-color: aqua;
     height: 10vh;
 }
-
+body{
+    
+    grid-template-areas: 1l
+2l 2l 2l 2l 2l 
+3l 3l 3l 3l 
+4l 4l
+5l
+    ;
+}
